@@ -94,7 +94,7 @@ class ChatBotActivity : AppCompatActivity() {
 
         createServices()
         sendMessage()
-        Log.d("섹스","머신")
+
         tts = android.speech.tts.TextToSpeech(this) { status ->
             if (status != android.speech.tts.TextToSpeech.ERROR) {
                 // 언어를 선택한다.
